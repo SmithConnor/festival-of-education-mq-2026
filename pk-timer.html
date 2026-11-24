@@ -1,0 +1,30 @@
+<style>
+  #pk-timer {
+    position: fixed; bottom: 0; left: 0;
+    height: 6px; width: 0;
+    background: #A6192E;   /* change to suit */
+    z-index: 100;
+  }
+</style>
+<div id="pk-timer"></div>
+<script>
+  window.addEventListener("load", () => {
+    const bar = document.getElementById("pk-timer");
+    const start = () => {
+      const ms = Reveal.getConfig().autoSlide;
+      bar.style.transition = "none";
+      bar.style.width = "0";
+      void bar.offsetWidth;  // force reflow so the animation restarts
+      bar.style.transition = `width ${ms}ms linear`;
+      bar.style.width = "100%";
+    };
+    const freeze = () => {
+      bar.style.width = getComputedStyle(bar).width;
+      bar.style.transition = "none";
+    };
+    Reveal.on("slidechanged", start);
+    Reveal.on("autoslidepaused", freeze);
+    Reveal.on("autoslideresumed", start);
+    start();
+  });
+</script>

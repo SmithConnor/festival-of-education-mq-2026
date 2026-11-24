@@ -1,0 +1,78 @@
+---
+pagetitle: "My Pecha Kucha"
+format:
+  revealjs:
+    auto-slide: 20000            # 20 s per slide
+    auto-slide-stoppable: true   # press A to pause/resume if something goes wrong
+    loop: false                  # stop on slide 20
+    transition: none             # transitions eat into your 20 s
+    background-transition: none
+    controls: false
+    progress: true
+    slide-number: c/t
+    incremental: false
+    hash: true
+    include-after-body: pk-timer.html
+---
+
+## {background-image="images/01.jpg" background-size="cover"}
+
+::: {.r-fit-text}
+Title of the talk
+:::
+
+Presenter · Macquarie University
+
+## {background-image="images/02.jpg" background-size="cover"}
+
+## The hook
+
+One striking statement, number or question.
+
+## {background-image="images/04.jpg" background-size="cover"}
+
+## {background-image="images/05.jpg" background-size="contain" background-color="black"}
+
+## The problem
+
+::: {.r-fit-text}
+Why should anyone care?
+:::
+
+## {background-image="images/07.jpg" background-size="cover"}
+
+## {background-image="images/08.jpg" background-size="cover"}
+
+## A key idea
+
+Short phrase, not a paragraph.
+
+## {background-image="images/10.jpg" background-size="cover"}
+
+## {background-image="images/11.jpg" background-size="cover"}
+
+## {background-image="images/12.jpg" background-size="cover"}
+
+## Turning point
+
+What changed, or what you found.
+
+## {background-image="images/14.jpg" background-size="cover"}
+
+## {background-image="images/15.jpg" background-size="cover"}
+
+## {background-image="images/16.jpg" background-size="cover"}
+
+## Why it matters
+
+One line.
+
+## {background-image="images/18.jpg" background-size="cover"}
+
+## {background-image="images/19.jpg" background-size="cover"}
+
+## {background-image="images/20.jpg" background-size="cover"}
+
+::: {.r-fit-text}
+Thank you
+:::
