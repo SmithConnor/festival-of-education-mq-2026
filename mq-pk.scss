@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+$mq-deep-red:   #A6192E;
+$mq-bright-red: #D6001C;
+$mq-charcoal:   #373A36;
+$mq-sand:       #D6D2C4;
+$mq-light-sand: #EDEBE5;
+
+$body-bg: #FFFFFF;
+$body-color: $mq-charcoal;
+$link-color: $mq-bright-red;
+$presentation-heading-color: $mq-deep-red;
+$presentation-heading-font-weight: 700;
+$font-family-sans-serif: "Helvetica Neue", Arial, sans-serif;
+$presentation-heading-font: $font-family-sans-serif;
+
+/*-- scss:rules --*/
+// White text on red and charcoal slides (Reveal.js flags these as dark)
+.reveal .slides section.has-dark-background,
+.reveal .slides section.has-dark-background :is(h1, h2, h3, p, em, strong, a) {
+  color: #FFFFFF;
+}
+
+// Progress bar and slide number in MQ colours
+.reveal .progress { color: $mq-bright-red; }
+.reveal .slide-number {
+  background-color: rgba(55, 58, 54, 0.75);
+  color: #FFFFFF;
+  font-size: 0.6em;
+}
+
+// Thin red rule under section headings
+.reveal h3 {
+  border-bottom: 4px solid $mq-bright-red;
+  display: inline-block;
+  padding-bottom: 0.15em;
+}
