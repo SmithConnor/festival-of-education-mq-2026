@@ -1,0 +1,7 @@
+---
+title: "festival-of-education-mq-2026"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
