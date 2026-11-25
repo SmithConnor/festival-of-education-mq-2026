@@ -113,7 +113,7 @@ Lower cognitive load from fewer disconnected sources
 ② Nobody learns alone
 :::
 
-Peer and support networks built into the unit
+![](images/home-alone.png)
 
 ## 
 
@@ -131,7 +131,7 @@ Low stakes.
 ::: {layout-ncol=2}
 ![](images/incorrect-formatting.png){style="height: 400px !important; width: auto !important;" fig-alt="STAT1103 iLearn Page S2 2023"}
 
-![](images/correct-formatting.png){style="height: 00px !important; width: auto !important;" fig-alt="FOSE1025 iLearn Page S1 2026"}
+![](images/correct-formatting.png){style="height: 400px !important; width: auto !important;" fig-alt="FOSE1025 iLearn Page S1 2026"}
 :::
 
 
