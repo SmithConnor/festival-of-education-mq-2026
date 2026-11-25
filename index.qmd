@@ -115,12 +115,14 @@ Lower cognitive load from fewer disconnected sources
 
 ![](images/home-alone.png)
 
-## 
+## {background-image="images/qa.png" background-size="cover" background-opacity="0.35"}
 
 ::: {.r-fit-text}
-Feedback every week.\
-Low stakes.
+Asking is part\
+of the unit.
 :::
+
+Help-seeking built in, not bolted on
 
 ## {background-color="#373A36"}
 
@@ -140,4 +142,13 @@ Low stakes.
 ::: {.r-fit-text}
 Easier to navigate.\
 Easier to ask.
+:::
+
+
+## {background-color="#373A36"}
+
+::: {.r-fit-text}
+"I also appreciated your asking and\
+implementing feedback from students,\
+even though we are only first years."
 :::
